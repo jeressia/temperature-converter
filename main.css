@@ -1,0 +1,31 @@
+body {
+    background-color: navy;
+    color: white;
+}
+
+.page-wrapper {
+    display: block;
+    text-align: center;
+}
+
+#convertBtn {
+    margin: 5px;
+}
+
+#clearBtn {
+    margin: 5px;
+}
+#tempInput {
+    border: .5px solid salmon;
+    margin: 5px;
+}
+#tempOutput {
+    background-color: white;
+    width:160px;
+    height: 50px;
+    margin:0 auto;
+    margin-top: 5px;
+    border: .5px solid salmon;
+    
+
+}
