@@ -4,7 +4,14 @@ const printToDom = (divId, textToPrint) => {
     selectedDiv.innerHTML = textToPrint;
 };
 
- const tempInput = (document.getElementById('tempInput'));
+const toCelsius = () => {
+}
+
+const toFahrenheit = () => {
+  
+}
+
+const tempInput = (document.getElementById('tempInput'));
 
 const buttonEvents = () => {
         document.getElementById('convertBtn').addEventListener('click',determineConverter);
@@ -14,7 +21,7 @@ const buttonEvents = () => {
 const determineConverter = (e) => {
     const buttonId = e.target.id;
       if (buttonId === 'convertBtn'){
-    printToDom('tempOutput',tempInput.value + ' ' + 'degrees Celsius');
+    printToDom('tempOutput',(tempInput.value-32/1.8));
   };
   if (buttonId === 'clearBtn'){
     printToDom('tempOutput',' ');
