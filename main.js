@@ -5,30 +5,22 @@ const printToDom = (divId, textToPrint) => {
 };
 
  const tempInput = (document.getElementById('tempInput'));
- 
 
-//  const showTemp= () => {
-//     if (celsiusRadio.checked === true) {
-//     let domString='';
-//         domString +=    `<h1 class="answer">Jeressia</h1>`;
-//     printToDom('tempOutput',domString);
-//     }
-//     if (fahrenheitRadio.checked === true) {
-   
-//     };
-// }
-
-    // showTemp();
-    const buttonEvents = () => {
+const buttonEvents = () => {
         document.getElementById('convertBtn').addEventListener('click',determineConverter);
         document.getElementById('clearBtn').addEventListener('click',determineConverter);
      };
 
 const determineConverter = (e) => {
     const buttonId = e.target.id;
-      if (buttonId === 'convertBtn' ){
-    printToDom('tempOutput',tempInput.value);
+      if (buttonId === 'convertBtn'){
+    printToDom('tempOutput',tempInput.value + ' ' + 'degrees Celsius');
   };
+  if (buttonId === 'clearBtn'){
+    printToDom('tempOutput',' ');
+   const tempInput = () => {
+    printToDom('tempInput',' '+' ')};
+    printToDom('tempOutput',' ')};
  };
   const init = () => {
       buttonEvents();
