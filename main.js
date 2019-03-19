@@ -19,7 +19,7 @@ const determineConverter = (e) => {
   if (buttonId === 'clearBtn'){
     printToDom('tempOutput',' ');
    const tempInput = () => {
-    printToDom('tempInput',' '+' ')};
+    printToDom('tempInput',' ')};
     printToDom('tempOutput',' ')};
  };
   const init = () => {

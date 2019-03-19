@@ -8,6 +8,7 @@ body {
 h1{  
     font-family: 'Major Mono Display', monospace;
     text-transform: uppercase;
+    text-shadow: 1px 1px salmon;
 }
 .page-wrapper {
     display: block;
@@ -15,7 +16,6 @@ h1{
 }
 
 button {
-    border-radius: 50%;
     background-color: #fff;
     padding: 6;
     font-size: 1.2em;
@@ -27,6 +27,7 @@ button {
 
 button:hover {
    cursor: pointer;
+   transform: scale(1.1);
 }
 
 #convertBtn {
@@ -39,6 +40,7 @@ button:hover {
 #tempInput {
     border: 1px solid salmon;
     margin: 5px;
+    padding: 3px;
 }
 #tempOutput {
     background-color: white;
@@ -48,6 +50,7 @@ button:hover {
     margin-top: 5px;
     border: 1px solid salmon;
     color:black;
+    padding: 3px;
 }
 
 .answer {
