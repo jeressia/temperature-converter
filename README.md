@@ -3,7 +3,7 @@ This app uses javascript to convert temperatures entered by users from Celsius t
 
 ## Screenshot
 
-![temperature converter](https://github.com/jeressia/temperature-converter/blob/master/temperature.png?raw=true)
+![temperature converter](https://github.com/jeressia/temperature-converter/blob/master/screenshot.png?raw=true)
 
 ## Getting Started
 
